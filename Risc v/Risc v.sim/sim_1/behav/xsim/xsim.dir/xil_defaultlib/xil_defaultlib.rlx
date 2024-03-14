@@ -1,0 +1,20 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/AUC/Risc v/Risc v.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+D:/New folder/ALU.v,1710368653,verilog,,D:/New folder/ALUControlUnit.v,,ALU,,,,,,,,
+D:/New folder/ALUControlUnit.v,1710368653,verilog,,D:/New folder/ControlUnit.v,,ALUControlUnit,,,,,,,,
+D:/New folder/ControlUnit.v,1710368653,verilog,,D:/New folder/DFlipFlop.v,,ControlUnit,,,,,,,,
+D:/New folder/DFlipFlop.v,1710368653,verilog,,D:/New folder/DataMem.v,,DFlipFlop,,,,,,,,
+D:/New folder/DataMem.v,1710368653,verilog,,D:/New folder/Datapath.v,,DataMem,,,,,,,,
+D:/New folder/Datapath.v,1710371369,verilog,,D:/New folder/FullAdder.v,,Datapath,,,,,,,,
+D:/New folder/Datapath_tb.v,1710371874,verilog,,,,Datapath_tb,,,,,,,,
+D:/New folder/FullAdder.v,1710368653,verilog,,D:/New folder/ImmGen.v,,FullAdder,,,,,,,,
+D:/New folder/ImmGen.v,1710368653,verilog,,D:/New folder/InstMem.v,,ImmGen,,,,,,,,
+D:/New folder/InstMem.v,1710368653,verilog,,D:/New folder/MUX2x1.v,,InstMem,,,,,,,,
+D:/New folder/MUX2x1.v,1710368653,verilog,,D:/New folder/NBitRegister.v,,MUX2x1,,,,,,,,
+D:/New folder/NBitRegister.v,1710368653,verilog,,D:/New folder/RCA.v,,NBitRegister,,,,,,,,
+D:/New folder/RCA.v,1710368653,verilog,,D:/New folder/RegFile.v,,RCA,,,,,,,,
+D:/New folder/RegFile.v,1710368653,verilog,,D:/New folder/ShiftLeft.v,,RegFile,,,,,,,,
+D:/New folder/ShiftLeft.v,1710368653,verilog,,D:/New folder/Datapath_tb.v,,ShiftLeft,,,,,,,,
