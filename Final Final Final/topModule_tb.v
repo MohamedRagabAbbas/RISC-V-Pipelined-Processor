@@ -114,7 +114,7 @@ module topModule_tb(
             endcase
             //execute all 12 instructions in instruction memory for the current combination of ledSel and ssdSel
             $display("combination number %d: ledSel: %b, ssdSel: %b", i, ledSel, ssdSel);
-            for (j = 0; j < 12; j = j + 1) begin
+            for (j = 0; j < 13; j = j + 1) begin
                 $display("Cycle: %d, LEDs: %h, ssd: %h", j, leds, ssd);
                 #100; // Wait for 100ns before moving to the next instruction
             end
