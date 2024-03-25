@@ -33,6 +33,8 @@ module DataMem (
         mem[0]=32'd17;
         mem[1]=32'd9;   
         mem[2]=32'd25;
+        mem[3]=32'd30;
+        mem[4]=32'd12;
     end
 
     reg [31:0] mem [0:63];

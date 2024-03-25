@@ -23,28 +23,17 @@
 module topModule_tb(
 
     );
-    
-    localparam period1 = 50;
-    localparam period2 = 100;
-   
+    // Clock generation
     reg clk;
     reg rst;
     reg [1:0] ledSel;
     reg [3:0] ssdSel;
     wire [15:0] leds;
     wire [12:0] ssd;
-    wire [3:0] Anode;
-    wire [6:0] LED_out;
-    
+    always #50 clk = ~clk; // 50MHz Clock
     Datapath DUT(clk, rst, ledSel, ssdSel, leds, ssd);
-    
-    initial begin
-        clk = 0;
-        forever #(period2/2) clk = ~clk;
-    end
-    
 
-    integer i;
+   integer i;
     integer j;
     initial begin
         for (i = 0; i < 64; i = i + 1) begin
@@ -127,9 +116,8 @@ module topModule_tb(
             $display("combination number %d: ledSel: %b, ssdSel: %b", i, ledSel, ssdSel);
             for (j = 0; j < 12; j = j + 1) begin
                 $display("Cycle: %d, LEDs: %h, ssd: %h", j, leds, ssd);
-                
+                #100; // Wait for 100ns before moving to the next instruction
             end
-            #100; // Wait for 100ns before moving to the next instruction
         end
     end
 endmodule
