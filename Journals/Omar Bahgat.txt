@@ -1,0 +1,26 @@
+Journal Entry: Implementing RISC-V Processor
+
+Project Duration: March 25, 2024 - March 28, 2024
+
+Team Members: Mohamed Abbas, Omar Bahgat
+
+Throughout the project duration, both me and Omar collaborated closely, providing mutual support and feedback to ensure the success of the implementation. 
+
+
+
+March 25, 2024:
+With our efforts, we began by dividing the tasks to efficiently tackle the project.
+We delved into setting up the elements required for the project, including environment setup and initial architecture planning. We also started the testing framework to ensure thorough validation of the implemented functionalities.
+We Implemented the R-type instructions according to the RISC-V specifications.
+
+
+March 26, 2024:
+As we progressed further into our project, today was dedicated to expanding our implementation to include the I-type instruction set architecture.
+We focused on implementing the I-type instructions according to the RISC-V specifications.
+We continued refining the testing framework initiated yesterday, incorporating test cases for both R-type and I-type instructions. 
+
+March 28, 2024:
+In the final part of our project, we completed the implementation of the remaining instruction types - S-type and B-type.
+We then did a thorough testing of all instructions that we implemented (R-type, I-type, S-type, B-type) and verified that they are working correctly.
+We also worked together on the Project Report.
+
