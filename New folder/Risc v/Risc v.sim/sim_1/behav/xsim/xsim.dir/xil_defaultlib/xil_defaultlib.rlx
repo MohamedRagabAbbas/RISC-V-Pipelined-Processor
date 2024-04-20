@@ -1,0 +1,23 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/AUC/Risc v/Risc v.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+D:/Projects/New folder/ALU.v,1713628423,verilog,,D:/Projects/New folder/ALUControlUnit.v,,ALU,,,,,,,,
+D:/Projects/New folder/ALUControlUnit.v,1713628423,verilog,,D:/Projects/New folder/ControlUnit.v,,ALUControlUnit,,,,,,,,
+D:/Projects/New folder/ControlUnit.v,1713628423,verilog,,D:/Projects/New folder/DFlipFlop.v,,ControlUnit,,,,,,,,
+D:/Projects/New folder/DFlipFlop.v,1713628423,verilog,,D:/Projects/New folder/DataMem.v,,DFlipFlop,,,,,,,,
+D:/Projects/New folder/DataMem.v,1713628423,verilog,,D:/Projects/New folder/ForwardingUnit.v,,DataMem,,,,,,,,
+D:/Projects/New folder/Datapath_tb.v,1713628423,verilog,,,,Datapath_tb,,,,,,,,
+D:/Projects/New folder/ForwardingUnit.v,1713628423,verilog,,D:/Projects/New folder/FullAdder.v,,ForwardingUnit,,,,,,,,
+D:/Projects/New folder/FullAdder.v,1713628423,verilog,,D:/Projects/New folder/ImmGen.v,,FullAdder,,,,,,,,
+D:/Projects/New folder/ImmGen.v,1713628423,verilog,,D:/Projects/New folder/InstMem.v,,ImmGen,,,,,,,,
+D:/Projects/New folder/InstMem.v,1713638213,verilog,,D:/Projects/New folder/MUX2x1.v,,InstMem,,,,,,,,
+D:/Projects/New folder/MUX2x1.v,1713628423,verilog,,D:/Projects/New folder/MUX4x1.v,,MUX2x1,,,,,,,,
+D:/Projects/New folder/MUX4x1.v,1713628423,verilog,,D:/Projects/New folder/NBitMUX2x1.v,,MUX4x1,,,,,,,,
+D:/Projects/New folder/NBitMUX2x1.v,1713628423,verilog,,D:/Projects/New folder/NBitRegister.v,,NBitMUX2x1,,,,,,,,
+D:/Projects/New folder/NBitRegister.v,1713628423,verilog,,D:/Projects/New folder/RCA.v,,NBitRegister,,,,,,,,
+D:/Projects/New folder/RCA.v,1713628423,verilog,,D:/Projects/New folder/RISCV_pipeline.v,,RCA,,,,,,,,
+D:/Projects/New folder/RISCV_pipeline.v,1713638582,verilog,,D:/Projects/New folder/RegFile.v,,HazardDetectionUnit;RISCV_pipeline,,,,,,,,
+D:/Projects/New folder/RegFile.v,1713628423,verilog,,D:/Projects/New folder/ShiftLeft.v,,RegFile,,,,,,,,
+D:/Projects/New folder/ShiftLeft.v,1713628423,verilog,,D:/Projects/New folder/Datapath_tb.v,,ShiftLeft,,,,,,,,

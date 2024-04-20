@@ -1,0 +1,36 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto c017bd95574449debb90fa887884db58 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Datapath_tb_behav xil_defaultlib.Datapath_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 32 for port A [D:/Projects/New folder/RISCV_pipeline.v:67]
+WARNING: [VRFC 10-278] actual bit length 8 differs from formal bit length 32 for port A [D:/Projects/New folder/RISCV_pipeline.v:119]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.MUX2x1
+Compiling module xil_defaultlib.NBitMUX2x1_default
+Compiling module xil_defaultlib.DFlipFlop
+Compiling module xil_defaultlib.NBitRegister_default
+Compiling module xil_defaultlib.InstMem
+Compiling module xil_defaultlib.NBitRegister(n=64)
+Compiling module xil_defaultlib.ControlUnit
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.NBitRegister(n=155)
+Compiling module xil_defaultlib.ShiftLeft
+Compiling module xil_defaultlib.ALUControlUnit
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.MUX4x1
+Compiling module xil_defaultlib.FullAdder
+Compiling module xil_defaultlib.RCA_default
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.NBitRegister(n=110)
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.NBitRegister(n=77)
+Compiling module xil_defaultlib.RISCV_pipeline
+Compiling module xil_defaultlib.Datapath_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Datapath_tb_behav

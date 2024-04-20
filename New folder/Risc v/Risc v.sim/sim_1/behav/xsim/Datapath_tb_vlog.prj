@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"D:/Projects/New folder/ALU.v" \
+"D:/Projects/New folder/ALUControlUnit.v" \
+"D:/Projects/New folder/ControlUnit.v" \
+"D:/Projects/New folder/DFlipFlop.v" \
+"D:/Projects/New folder/DataMem.v" \
+"D:/Projects/New folder/ForwardingUnit.v" \
+"D:/Projects/New folder/FullAdder.v" \
+"D:/Projects/New folder/ImmGen.v" \
+"D:/Projects/New folder/InstMem.v" \
+"D:/Projects/New folder/MUX2x1.v" \
+"D:/Projects/New folder/MUX4x1.v" \
+"D:/Projects/New folder/NBitMUX2x1.v" \
+"D:/Projects/New folder/NBitRegister.v" \
+"D:/Projects/New folder/RCA.v" \
+"D:/Projects/New folder/RISCV_pipeline.v" \
+"D:/Projects/New folder/RegFile.v" \
+"D:/Projects/New folder/ShiftLeft.v" \
+"D:/Projects/New folder/Datapath_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
