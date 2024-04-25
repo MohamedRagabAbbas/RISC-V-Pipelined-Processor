@@ -82,32 +82,33 @@ Thorough testing was conducted for each instruction individually and in various 
 
 The R-type & I-type & B-type instructions were tested extensively to verify their functionality. Below are the images showcasing the simulation results for different R-type & I-type & B-type instructions:
 
-<div style="display: flex; flex-wrap: wrap;">
-  <div style="flex: 50%; ">
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 10px;">
+  <div style="grid-column: span 1; grid-row: span 1;">
     <img src="images/1.png" alt="Datapath Diagram">
   </div>
-  <div style="flex: 50%; ">
+  <div style="grid-column: span 1; grid-row: span 1;">
     <img src="images/2.png" alt="Datapath Diagram">
   </div>
-  <div style="flex: 100%; padding: 5px;">
+  <div style="grid-column: span 2; grid-row: span 1;">
     <img src="images/3.png" alt="Datapath Diagram">
   </div>
-  <div style="flex: 50%; padding: 5px;">
+  <div style="grid-column: span 1; grid-row: span 1;">
     <img src="images/4.png" alt="Datapath Diagram">
   </div>
-  <div style="flex: 50%; padding: 5px;">
+  <div style="grid-column: span 1; grid-row: span 1;">
     <img src="images/5.png" alt="Datapath Diagram">
   </div>
-  <div style="flex: 100%; padding: 5px;">
+  <div style="grid-column: span 2; grid-row: span 1;">
     <img src="images/6.png" alt="Datapath Diagram">
   </div>
-  <div style="flex: 50%; padding: 5px;">
+  <div style="grid-column: span 1; grid-row: span 1;">
     <img src="images/7.png" alt="Datapath Diagram">
   </div>
-  <div style="flex: 100%; padding: 5px;">
+  <div style="grid-column: span 2; grid-row: span 1;">
     <img src="images/2-1.png" alt="Datapath Diagram">
   </div>
 </div>
+
 
 
 ### Testing S-type & L-type  Instructions
