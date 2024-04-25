@@ -84,30 +84,31 @@ The R-type & I-type & B-type instructions were tested extensively to verify thei
 
 <div style="display: flex; flex-wrap: wrap;">
   <div style="flex: 50%; padding: 5px;">
-    <img src="images/1.png" alt="Datapath Diagram" >
+    <img src="images/1.png" alt="Datapath Diagram">
   </div>
   <div style="flex: 50%; padding: 5px;">
-    <img src="images/2.png" alt="Datapath Diagram" >
+    <img src="images/2.png" alt="Datapath Diagram">
   </div>
-  <div style="flex: 50%; padding: 5px;">
-    <img src="images/3.png" alt="Datapath Diagram" >
+  <div style="flex: 100%; padding: 5px;">
+    <img src="images/3.png" alt="Datapath Diagram">
   </div>
   <div style="flex: 50%; padding: 5px;">
     <img src="images/4.png" alt="Datapath Diagram">
   </div>
   <div style="flex: 50%; padding: 5px;">
-    <img src="images/5.png" alt="Datapath Diagram" >
+    <img src="images/5.png" alt="Datapath Diagram">
+  </div>
+  <div style="flex: 100%; padding: 5px;">
+    <img src="images/6.png" alt="Datapath Diagram">
   </div>
   <div style="flex: 50%; padding: 5px;">
-    <img src="images/6.png" alt="Datapath Diagram" >
-  </div>
-  <div style="flex: 50%; padding: 5px;">
-    <img src="images/7.png" alt="Datapath Diagram" >
+    <img src="images/7.png" alt="Datapath Diagram">
   </div>
   <div style="flex: 100%; padding: 5px;">
     <img src="images/2-1.png" alt="Datapath Diagram">
   </div>
 </div>
+
 
 ### Testing S-type & L-type  Instructions
 
