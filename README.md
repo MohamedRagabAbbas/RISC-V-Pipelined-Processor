@@ -15,15 +15,15 @@
 <br />
 <div align="center">
 
-<img src="images/diagram.png" alt="Datapath Diagram" width="500">
+<img src="images/diagram.png" alt="Datapath Diagram" width="800">
 
 <h3 align="center">RISC-V Pipelined Processor Implementation</h3>
 
   <p align="center">
 <!--     <a href="https://github.com/MohamedRagabAbbas/RISC-V-Pipelined-Processor">View Demo</a> -->
-<!--     · -->
+<!--     Â· -->
     <a href="https://github.com/MohamedRagabAbbas/RISC-V-Pipelined-Processor/issues">Report Bug</a>
-    ·
+    Â·
     <a href="https://github.com/MohamedRagabAbbas/RISC-V-Pipelined-Processor/issues">Request Feature</a>
   </p>
 </div>
