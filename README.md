@@ -6,8 +6,8 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-Mohamed Abbas [![LinkedIn][linkedin-shield]][linkedin-url1]
-Omar Bahgat [![LinkedIn][linkedin-shield]][linkedin-url2]
+[![LinkedIn][linkedin-shield]][linkedin-url1]
+[![LinkedIn][linkedin-shield]][linkedin-url2]
 
 
 
