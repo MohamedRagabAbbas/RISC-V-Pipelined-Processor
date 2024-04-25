@@ -154,6 +154,11 @@ A test program generator capable of generating a sequence of random valid instru
 2. Open Vivado.
 3. Create New Project.
 4. Add  `RISC-V-Pipelined-Processor` Folder to the project through `Add directory` button.
+   
+## Group Members
+
+* ![Mohamed Abbas] [![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png)](https://github.com/MohamedRagabAbbas) [![LinkedIn Logo](https://image.flaticon.com/icons/png/512/174/174857.png)](https://www.linkedin.com/in/mohamed-ragab-773b86244/)
+* ![Omar Bahgat][![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png)](https://github.com/omar-bahgat) [![LinkedIn Logo](https://image.flaticon.com/icons/png/512/174/174857.png)](https://www.linkedin.com/in/omar-bahgat-644ab1207/)
 
 ## Tech Stack
 
