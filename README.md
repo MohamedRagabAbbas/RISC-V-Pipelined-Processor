@@ -157,8 +157,9 @@ A test program generator capable of generating a sequence of random valid instru
    
 ## Group Members
 
-* ![Mohamed Abbas] [![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png)](https://github.com/MohamedRagabAbbas) [![LinkedIn Logo](https://image.flaticon.com/icons/png/512/174/174857.png)](https://www.linkedin.com/in/mohamed-ragab-773b86244/)
-* ![Omar Bahgat][![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png)](https://github.com/omar-bahgat) [![LinkedIn Logo](https://image.flaticon.com/icons/png/512/174/174857.png)](https://www.linkedin.com/in/omar-bahgat-644ab1207/)
+* Mohamed Abbas: https://github.com/MohamedRagabAbbas [![LinkedIn][linkedin-shield]][linkedin-url1] <br> 
+* Omar Bahgat: https://github.com/omar-bahgat [![LinkedIn][linkedin-shield]][linkedin-url2] <br>
+
 
 ## Tech Stack
 
