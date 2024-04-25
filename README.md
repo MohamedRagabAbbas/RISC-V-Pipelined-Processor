@@ -15,7 +15,7 @@
 <br />
 <div align="center">
 
-<img src="images/diagram.png" alt="Datapath Diagram" width="800">
+<img src="images/diagram.png" alt="Datapath Diagram" >
 
 <h3 align="center">RISC-V Pipelined Processor Implementation</h3>
 
@@ -117,10 +117,10 @@ Similarly, the S-type & L-type instructions underwent thorough testing. Here are
 
 <div style="display: flex; flex-wrap: wrap;">
   <div style="flex: 50%; padding: 5px;">
-    <img src="images/3-1.png" alt="Datapath Diagram" width="500">
+    <img src="images/3-1.png" alt="Datapath Diagram" >
   </div>
   <div style="flex: 50%; padding: 5px;">
-    <img src="images/3-2.png" alt="Datapath Diagram" width="500">
+    <img src="images/3-2.png" alt="Datapath Diagram" >
   </div>
 </div>
 
@@ -129,13 +129,13 @@ Similarly, the S-type & L-type instructions underwent thorough testing. Here are
 
 The jump and immediate instructions were specifically tested to verify their proper functioning:
 
-<img src="images/4-1.png" alt="Datapath Diagram" width="500">
+<img src="images/4-1.png" alt="Datapath Diagram" >
 
 ### Testing MUL, DIV, REM Instructions
 
 The multiplication, division, and remainder instructions were also subjected to rigorous testing:
 
-<img src="images/5-1.png" alt="Datapath Diagram" width="500">
+<img src="images/5-1.png" alt="Datapath Diagram" >
 
 
 ## Bonus Features
