@@ -167,7 +167,7 @@ The project utilizes the following technologies:
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/youssef-mansor/RISC-V-Datapath-single-cycle-implementation.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/MohamedRagabAbbas/RISC-V-Pipelined-Processor.svg?style=for-the-badge
 [contributors-url]: https://github.com/MohamedRagabAbbas/RISC-V-Pipelined-Processor/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/MohamedRagabAbbas/RISC-V-Pipelined-Processor.svg?style=for-the-badge
 [forks-url]: https://github.com/MohamedRagabAbbas/RISC-V-Pipelined-Processor/network/members
