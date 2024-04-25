@@ -1,0 +1,63 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/defines.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+WARNING: [VRFC 10-986] literal value truncated to fit in 4 bits [D:/Projects/Final Project 2/ALU.v:62]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/ALUControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUControlUnit
+WARNING: [VRFC 10-986] literal value truncated to fit in 4 bits [D:/Projects/Final Project 2/ALUControlUnit.v:70]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/ControlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ControlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/DFlipFlop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFlipFlop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/ForwardingUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ForwardingUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/FullAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FullAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/InstMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/MUX2x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/MUX4x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/NBitMUX2x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NBitMUX2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/NBitRegister.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NBitRegister
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/RCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/Shift.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shift
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/RISCV_pipeline.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-311] analyzing module Shift
+WARNING: [VRFC 10-2845] overwriting previous definition of module Shift [D:/Projects/Final Project 2/RISCV_pipeline.v:28]
+INFO: [VRFC 10-311] analyzing module RISCV_pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+WARNING: [VRFC 10-2845] overwriting previous definition of module HazardDetectionUnit [D:/Projects/Final Project 2/HazardDetectionUnit.v:14]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/Conditional_Branches.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Conditional_Branches
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/BCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/Datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/Four_Digit_Seven_Segment_Driver_Optimized.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Four_Digit_Seven_Segment_Driver_Optimized
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/LoadUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LoadUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/ShiftLeft.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ShiftLeft
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/StoreUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StoreUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/topModule.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module topModule
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/SingleMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Projects/Final Project 2/Datapath_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Datapath_tb

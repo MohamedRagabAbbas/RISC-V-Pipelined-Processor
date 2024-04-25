@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Datapath_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Datapath_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1198000001fs"></ZoomEndTime>
+      <Cursor1Time time="8500000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="203"></NameColumnWidth>
+      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/Datapath_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/DUT/PC_IF_ID_input" type="array">
+      <obj_property name="ElementShortName">PC_IF_ID_input[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_IF_ID_input[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/DUT/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/DUT/BranchTarget" type="array">
+      <obj_property name="ElementShortName">BranchTarget[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BranchTarget[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Datapath_tb/DUT/regfile/registers" type="array">
+      <obj_property name="ElementShortName">registers[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group18" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/A" type="array">
+         <obj_property name="ElementShortName">A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/B" type="array">
+         <obj_property name="ElementShortName">B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">B[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/sel" type="array">
+         <obj_property name="ElementShortName">sel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">sel[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/shamt" type="array">
+         <obj_property name="ElementShortName">shamt[4:0]</obj_property>
+         <obj_property name="ObjectShortName">shamt[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/ALUOutput" type="array">
+         <obj_property name="ElementShortName">ALUOutput[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOutput[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/cf" type="logic">
+         <obj_property name="ElementShortName">cf</obj_property>
+         <obj_property name="ObjectShortName">cf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/zf" type="logic">
+         <obj_property name="ElementShortName">zf</obj_property>
+         <obj_property name="ObjectShortName">zf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/vf" type="logic">
+         <obj_property name="ElementShortName">vf</obj_property>
+         <obj_property name="ObjectShortName">vf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/sf" type="logic">
+         <obj_property name="ElementShortName">sf</obj_property>
+         <obj_property name="ObjectShortName">sf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/Sum" type="array">
+         <obj_property name="ElementShortName">Sum[31:0]</obj_property>
+         <obj_property name="ObjectShortName">Sum[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/AND" type="array">
+         <obj_property name="ElementShortName">AND[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AND[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/OR" type="array">
+         <obj_property name="ElementShortName">OR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/ALU_B_input" type="array">
+         <obj_property name="ElementShortName">ALU_B_input[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALU_B_input[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/shifted" type="array">
+         <obj_property name="ElementShortName">shifted[31:0]</obj_property>
+         <obj_property name="ObjectShortName">shifted[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/alu/N" type="array">
+         <obj_property name="ElementShortName">N[31:0]</obj_property>
+         <obj_property name="ObjectShortName">N[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group161" type="group">
+      <obj_property name="label">singleMem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group367" type="group">
+      <obj_property name="label">Others</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Datapath_tb/DUT/MEM_WB_Ctrl" type="array">
+         <obj_property name="ElementShortName">MEM_WB_Ctrl[14:0]</obj_property>
+         <obj_property name="ObjectShortName">MEM_WB_Ctrl[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/pc_rst" type="logic">
+         <obj_property name="ElementShortName">pc_rst</obj_property>
+         <obj_property name="ObjectShortName">pc_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/pc_halt" type="logic">
+         <obj_property name="ElementShortName">pc_halt</obj_property>
+         <obj_property name="ObjectShortName">pc_halt</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/halting" type="logic">
+         <obj_property name="ElementShortName">halting</obj_property>
+         <obj_property name="ObjectShortName">halting</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/ID_EX_PC" type="array">
+         <obj_property name="ElementShortName">ID_EX_PC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_EX_PC[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/ID_EX_Imm" type="array">
+         <obj_property name="ElementShortName">ID_EX_Imm[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ID_EX_Imm[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/isJALR" type="logic">
+         <obj_property name="ElementShortName">isJALR</obj_property>
+         <obj_property name="ObjectShortName">isJALR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/EX_MEM_BranchAddOut1" type="array">
+         <obj_property name="ElementShortName">EX_MEM_BranchAddOut1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_MEM_BranchAddOut1[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/EX_MEM_ALU_out" type="array">
+         <obj_property name="ElementShortName">EX_MEM_ALU_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_MEM_ALU_out[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/EX_MEM_BranchAddOut" type="array">
+         <obj_property name="ElementShortName">EX_MEM_BranchAddOut[31:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_MEM_BranchAddOut[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/stall" type="logic">
+         <obj_property name="ElementShortName">stall</obj_property>
+         <obj_property name="ObjectShortName">stall</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/conditionResult" type="array">
+         <obj_property name="ElementShortName">conditionResult[1:0]</obj_property>
+         <obj_property name="ObjectShortName">conditionResult[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/signals" type="array">
+         <obj_property name="ElementShortName">signals[14:0]</obj_property>
+         <obj_property name="ObjectShortName">signals[14:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="group429" type="group">
+         <obj_property name="label">InstMem</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group58" type="group">
+         <obj_property name="label">RF</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Datapath_tb/DUT/regfile/src1" type="array">
+            <obj_property name="ElementShortName">src1[4:0]</obj_property>
+            <obj_property name="ObjectShortName">src1[4:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/regfile/src2" type="array">
+            <obj_property name="ElementShortName">src2[4:0]</obj_property>
+            <obj_property name="ObjectShortName">src2[4:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/regfile/dest" type="array">
+            <obj_property name="ElementShortName">dest[4:0]</obj_property>
+            <obj_property name="ObjectShortName">dest[4:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/regfile/data" type="array">
+            <obj_property name="ElementShortName">data[31:0]</obj_property>
+            <obj_property name="ObjectShortName">data[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/regfile/clk" type="logic">
+            <obj_property name="ElementShortName">clk</obj_property>
+            <obj_property name="ObjectShortName">clk</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/regfile/rst" type="logic">
+            <obj_property name="ElementShortName">rst</obj_property>
+            <obj_property name="ObjectShortName">rst</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/regfile/RegWrite" type="logic">
+            <obj_property name="ElementShortName">RegWrite</obj_property>
+            <obj_property name="ObjectShortName">RegWrite</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/regfile/out1" type="array">
+            <obj_property name="ElementShortName">out1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">out1[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/regfile/out2" type="array">
+            <obj_property name="ElementShortName">out2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">out2[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/regfile/i" type="array">
+            <obj_property name="ElementShortName">i[31:0]</obj_property>
+            <obj_property name="ObjectShortName">i[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/regfile/N" type="array">
+            <obj_property name="ElementShortName">N[31:0]</obj_property>
+            <obj_property name="ObjectShortName">N[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group103" type="group">
+         <obj_property name="label">Data Memory</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/EX_MEM_Ctrl" type="array">
+         <obj_property name="ElementShortName">EX_MEM_Ctrl[14:0]</obj_property>
+         <obj_property name="ObjectShortName">EX_MEM_Ctrl[14:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/IF_ID_Inst" type="array">
+         <obj_property name="ElementShortName">IF_ID_Inst[31:0]</obj_property>
+         <obj_property name="ObjectShortName">IF_ID_Inst[31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/instruction" type="array">
+         <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="group245" type="group">
+         <obj_property name="label">mux</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Datapath_tb/DUT/addrInstOrData/A" type="array">
+            <obj_property name="ElementShortName">A[7:0]</obj_property>
+            <obj_property name="ObjectShortName">A[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/addrInstOrData/B" type="array">
+            <obj_property name="ElementShortName">B[7:0]</obj_property>
+            <obj_property name="ObjectShortName">B[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/addrInstOrData/sel" type="logic">
+            <obj_property name="ElementShortName">sel</obj_property>
+            <obj_property name="ObjectShortName">sel</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/addrInstOrData/Y" type="array">
+            <obj_property name="ElementShortName">Y[7:0]</obj_property>
+            <obj_property name="ObjectShortName">Y[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/addrInstOrData/n" type="array">
+            <obj_property name="ElementShortName">n[31:0]</obj_property>
+            <obj_property name="ObjectShortName">n[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group139" type="group">
+         <obj_property name="label">PC</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Datapath_tb/DUT/mux_1/A" type="array">
+            <obj_property name="ElementShortName">A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">A[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/mux_1/B" type="array">
+            <obj_property name="ElementShortName">B[31:0]</obj_property>
+            <obj_property name="ObjectShortName">B[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/mux_1/sel" type="logic">
+            <obj_property name="ElementShortName">sel</obj_property>
+            <obj_property name="ObjectShortName">sel</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/mux_1/Y" type="array">
+            <obj_property name="ElementShortName">Y[31:0]</obj_property>
+            <obj_property name="ObjectShortName">Y[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/mux_1/n" type="array">
+            <obj_property name="ElementShortName">n[31:0]</obj_property>
+            <obj_property name="ObjectShortName">n[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group794" type="group">
+         <obj_property name="label">TargetAddr</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Datapath_tb/DUT/mux_1/A" type="array">
+            <obj_property name="ElementShortName">A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">A[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/mux_1/B" type="array">
+            <obj_property name="ElementShortName">B[31:0]</obj_property>
+            <obj_property name="ObjectShortName">B[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/mux_1/sel" type="logic">
+            <obj_property name="ElementShortName">sel</obj_property>
+            <obj_property name="ObjectShortName">sel</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/mux_1/Y" type="array">
+            <obj_property name="ElementShortName">Y[31:0]</obj_property>
+            <obj_property name="ObjectShortName">Y[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Datapath_tb/DUT/mux_1/n" type="array">
+            <obj_property name="ElementShortName">n[31:0]</obj_property>
+            <obj_property name="ObjectShortName">n[31:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/Anding" type="logic">
+         <obj_property name="ElementShortName">Anding</obj_property>
+         <obj_property name="ObjectShortName">Anding</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1606" type="group">
+      <obj_property name="label">Branch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Datapath_tb/DUT/condBranches/branchOp" type="array">
+         <obj_property name="ElementShortName">branchOp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">branchOp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/condBranches/func3" type="array">
+         <obj_property name="ElementShortName">func3[2:0]</obj_property>
+         <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/condBranches/zf" type="logic">
+         <obj_property name="ElementShortName">zf</obj_property>
+         <obj_property name="ObjectShortName">zf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/condBranches/cf" type="logic">
+         <obj_property name="ElementShortName">cf</obj_property>
+         <obj_property name="ObjectShortName">cf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/condBranches/vf" type="logic">
+         <obj_property name="ElementShortName">vf</obj_property>
+         <obj_property name="ObjectShortName">vf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/condBranches/sf" type="logic">
+         <obj_property name="ElementShortName">sf</obj_property>
+         <obj_property name="ObjectShortName">sf</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Datapath_tb/DUT/condBranches/result" type="array">
+         <obj_property name="ElementShortName">result[1:0]</obj_property>
+         <obj_property name="ObjectShortName">result[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

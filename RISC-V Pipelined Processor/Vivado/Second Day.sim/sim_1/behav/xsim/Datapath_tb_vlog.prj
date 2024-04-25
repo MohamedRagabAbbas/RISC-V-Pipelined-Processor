@@ -1,0 +1,37 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"D:/Projects/Final Project 2/defines.v" \
+"D:/Projects/Final Project 2/ALU.v" \
+"D:/Projects/Final Project 2/ALUControlUnit.v" \
+"D:/Projects/Final Project 2/ControlUnit.v" \
+"D:/Projects/Final Project 2/DFlipFlop.v" \
+"D:/Projects/Final Project 2/DataMem.v" \
+"D:/Projects/Final Project 2/ForwardingUnit.v" \
+"D:/Projects/Final Project 2/FullAdder.v" \
+"D:/Projects/Final Project 2/ImmGen.v" \
+"D:/Projects/Final Project 2/InstMem.v" \
+"D:/Projects/Final Project 2/MUX2x1.v" \
+"D:/Projects/Final Project 2/MUX4x1.v" \
+"D:/Projects/Final Project 2/NBitMUX2x1.v" \
+"D:/Projects/Final Project 2/NBitRegister.v" \
+"D:/Projects/Final Project 2/RCA.v" \
+"D:/Projects/Final Project 2/RegFile.v" \
+"D:/Projects/Final Project 2/Shift.v" \
+"D:/Projects/Final Project 2/RISCV_pipeline.v" \
+"D:/Projects/Final Project 2/HazardDetectionUnit.v" \
+"D:/Projects/Final Project 2/Conditional_Branches.v" \
+"D:/Projects/Final Project 2/BCD.v" \
+"D:/Projects/Final Project 2/Datapath.v" \
+"D:/Projects/Final Project 2/Four_Digit_Seven_Segment_Driver_Optimized.v" \
+"D:/Projects/Final Project 2/LoadUnit.v" \
+"D:/Projects/Final Project 2/ShiftLeft.v" \
+"D:/Projects/Final Project 2/StoreUnit.v" \
+"D:/Projects/Final Project 2/topModule.v" \
+"D:/Projects/Final Project 2/SingleMem.v" \
+"D:/Projects/Final Project 2/Datapath_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
