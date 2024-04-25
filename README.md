@@ -157,8 +157,8 @@ A test program generator capable of generating a sequence of random valid instru
    
 ## Group Members
 
-* Mohamed Abbas: https://github.com/MohamedRagabAbbas [![LinkedIn][linkedin-shield]][linkedin-url1] <br> 
-* Omar Bahgat: https://github.com/omar-bahgat [![LinkedIn][linkedin-shield]][linkedin-url2] <br>
+* Mohamed Abbas: https://github.com/MohamedRagabAbbas <br> 
+* Omar Bahgat: https://github.com/omar-bahgat <br>
 
 
 ## Tech Stack
