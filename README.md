@@ -11,11 +11,11 @@
 
 
 <!-- PROJECT LOGO -->
+### Datapath Diagram
 <br />
 <div align="center">
 
-![Image](diagram.png)
-
+<img src="images/diagram.png" alt="Datapath Diagram" width="500">
 
 <h3 align="center">RISC-V Pipelined Processor Implementation</h3>
 
@@ -39,10 +39,7 @@
 
 In this project, we implemented a 5-stage pipelined RV32 processor supporting all 40 RISC-V instructions as well as multiplication and division instructions according to the provided specification document. Unlike the previous milestone, we integrated a single memory for both data and instructions.
 
-### Datapath Diagram
 
-![Datapath Diagram](datapath_diagram.png)
-<img src="images/diagram.png" alt="Datapath Diagram" width="500">
 ## Architecture
 
 ### Stages
@@ -85,21 +82,45 @@ Thorough testing was conducted for each instruction individually and in various 
 
 The R-type & I-type & B-type instructions were tested extensively to verify their functionality. Below are the images showcasing the simulation results for different R-type & I-type & B-type instructions:
 
-<img src="images/1.png" alt="Datapath Diagram" width="500">
-<img src="images/2.png" alt="Datapath Diagram" width="500">
-<img src="images/3.png" alt="Datapath Diagram" width="500">
-<img src="images/4.png" alt="Datapath Diagram" width="500">
-<img src="images/5.png" alt="Datapath Diagram" width="500">
-<img src="images/6.png" alt="Datapath Diagram" width="500">
-<img src="images/7.png" alt="Datapath Diagram" width="500">
-<img src="images/2-1.png" alt="Datapath Diagram" width="500">
+<div style="display: flex; flex-wrap: wrap;">
+  <div style="flex: 50%; padding: 5px;">
+    <img src="images/1.png" alt="Datapath Diagram" width="500">
+  </div>
+  <div style="flex: 50%; padding: 5px;">
+    <img src="images/2.png" alt="Datapath Diagram" width="500">
+  </div>
+  <div style="flex: 50%; padding: 5px;">
+    <img src="images/3.png" alt="Datapath Diagram" width="500">
+  </div>
+  <div style="flex: 50%; padding: 5px;">
+    <img src="images/4.png" alt="Datapath Diagram" width="500">
+  </div>
+  <div style="flex: 50%; padding: 5px;">
+    <img src="images/5.png" alt="Datapath Diagram" width="500">
+  </div>
+  <div style="flex: 50%; padding: 5px;">
+    <img src="images/6.png" alt="Datapath Diagram" width="500">
+  </div>
+  <div style="flex: 50%; padding: 5px;">
+    <img src="images/7.png" alt="Datapath Diagram" width="500">
+  </div>
+  <div style="flex: 100%; padding: 5px;">
+    <img src="images/2-1.png" alt="Datapath Diagram" width="500">
+  </div>
+</div>
 
 ### Testing S-type & L-type  Instructions
 
 Similarly, the S-type & L-type instructions underwent thorough testing. Here are the simulation results for some of the S-type & L-type instructions:
 
-<img src="images/3-1.png" alt="Datapath Diagram" width="500">
-<img src="images/3-2.png" alt="Datapath Diagram" width="500">
+<div style="display: flex; flex-wrap: wrap;">
+  <div style="flex: 50%; padding: 5px;">
+    <img src="images/3-1.png" alt="Datapath Diagram" width="500">
+  </div>
+  <div style="flex: 50%; padding: 5px;">
+    <img src="images/3-2.png" alt="Datapath Diagram" width="500">
+  </div>
+</div>
 
 
 ### Testing JAL, JALR, LUI, and AUIPC Instructions
@@ -126,10 +147,10 @@ Support for integer multiplication and division was added to effectively support
 A test program generator capable of generating a sequence of random valid instructions was implemented to facilitate comprehensive testing of the processor implementation.
 
 ## Building the Project
-1. Download `Single Cycle Implementation of RISC-V.srcs` Folder.
+1. Download `RISC-V-Pipelined-Processor` Folder.
 2. Open Vivado.
 3. Create New Project.
-4. Add  `Single Cycle Implementation of RISC-V.srcs` Folder to the project through `Add directory` button.
+4. Add  `RISC-V-Pipelined-Processor` Folder to the project through `Add directory` button.
 
 ## Tech Stack
 
