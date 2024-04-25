@@ -83,11 +83,10 @@ Thorough testing was conducted for each instruction individually and in various 
 The R-type & I-type & B-type instructions were tested extensively to verify their functionality. Below are the images showcasing the simulation results for different R-type & I-type & B-type instructions:
 
 <div style="display: flex; flex-wrap: wrap;">
-  <div style="flex: 50%; padding: 5px;">
+  <div style="flex: 50%; ">
     <img src="images/1.png" alt="Datapath Diagram">
-    <img src="images/2.png" alt="Datapath Diagram">
   </div>
-  <div style="flex: 50%; padding: 5px;">
+  <div style="flex: 50%; ">
     <img src="images/2.png" alt="Datapath Diagram">
   </div>
   <div style="flex: 100%; padding: 5px;">
