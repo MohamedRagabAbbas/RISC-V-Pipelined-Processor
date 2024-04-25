@@ -6,7 +6,8 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+Mohamed Abbas [![LinkedIn][linkedin-shield]][linkedin-url1]
+Omar Bahgat [![LinkedIn][linkedin-shield]][linkedin-url2]
 
 
 
@@ -177,6 +178,7 @@ The project utilizes the following technologies:
 [license-shield]: https://img.shields.io/github/license/MohamedRagabAbbas/RISC-V-Pipelined-Processor.svg?style=for-the-badge
 [license-url]: https://github.com/MohamedRagabAbbas/RISC-V-Pipelined-Processor/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/mohamed-ragab-773b86244/
+[linkedin-url1]: https://www.linkedin.com/in/mohamed-ragab-773b86244/
+[linkedin-url1]: https://www.linkedin.com/in/omar-bahgat-644ab1207/
 [product-screenshot]: images/screenshot.png
 
