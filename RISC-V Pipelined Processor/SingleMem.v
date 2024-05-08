@@ -56,7 +56,7 @@ module SingleMem(input clk, input MemRead,input [2:0]func3, input MemWrite,input
      
     // test cases
     initial begin 
-
+$readmemh("instructions.mem",mem);
                 {mem[256],mem[257],mem[258],mem[259]}=32'd1247381909; 
                 
                 
